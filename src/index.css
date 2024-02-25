@@ -65,9 +65,9 @@ body {
 
 button {
   font: inherit;
-  background-color: #240370;
+  background-color: #9e2b05;
   color: white;
-  border: 1px solid #240370;
+  border: 1px solid #9e2b05;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
@@ -75,10 +75,17 @@ button {
 
 button:hover,
 button:active {
-  background-color: #33059e;
-  border-color: #33059e;
+  background-color: #9e2b05;
+  border-color: #9e2b05;
 }
-
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #ccc;
+  color: #666;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
 .form-actions {
   text-align: right;
 }
